@@ -1,3 +1,9 @@
+import styles from '../styles/ProductList.module.css'
+
 export function ProductList(props) {
-    return <div style={{ display: "flex", gap: "16px" }}>{props.children}</div>
+    return (
+        <>
+            <h2>Product Title</h2>
+            <div className={styles.List}>{props.children}</div>
+        </>)
 }

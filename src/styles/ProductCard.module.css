@@ -1,0 +1,38 @@
+.Container {
+  position: relative;
+  border: 1px solid white;
+  border-radius: 8px;
+  padding: 16px;
+  text-align: center;
+  width: 100%;
+}
+
+.Fav {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  border: 0;
+  background: none;
+  font-size: 20px;
+
+  &:hover {
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+  }
+}
+
+.List {
+  list-style: none;
+  padding: 0;
+}
+
+.NotAvailable {
+  font-size: 14px;
+  color: lightsalmon;
+}
+
+.Available {
+  font-size: 17px;
+  color: lightgreen;
+}
